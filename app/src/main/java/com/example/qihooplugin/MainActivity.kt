@@ -14,18 +14,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        openPlugin()
+//        openPlugin()
     }
 
-    private fun openPlugin() {
-        val intent = Intent()
-        intent.component = ComponentName(
-            "android_webView",
-            "com.example.msi.platformforup.WelcomeActivity"
-        )
-        RePlugin.startActivity(this@MainActivity, intent)
-        finish()
-    }
+//    private fun openPlugin() {
+//        val intent = Intent()
+//        intent.component = ComponentName(
+//            "android_webView",
+//            "com.example.msi.platformforup.WelcomeActivity"
+//        )
+//        RePlugin.startActivity(this@MainActivity, intent)
+//        finish()
+//    }
 
 
 
