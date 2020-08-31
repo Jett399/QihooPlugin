@@ -17,9 +17,9 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("../dafacloud_production_release_200423.keystore")
+            storeFile file("../keysorebucket/dafacloud_production_release_202008311250.keystore")
             storePassword KEYSTORE_PASSWORD
-            keyAlias 'key-dfgame-release-20042301'
+            keyAlias 'key-dfgame-release-202008311250'
             keyPassword KEY_PASSWORD
         }
     }

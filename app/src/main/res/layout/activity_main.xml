@@ -29,12 +29,6 @@
         android:layout_alignParentBottom="true"
         android:text="重试" />
 
-        <Button
-            android:id="@+id/id_open_internal_plugin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="openInternalPlugin"
-            android:text="@string/open_internal_plugin" />
 
 
     <!--    <Button-->
