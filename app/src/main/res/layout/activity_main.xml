@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/startup"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:text="@string/first_init_tips"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_retry"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="重试" />
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/id_down_load"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="downloadPlugin"-->
+<!--        android:text="@string/download_plugin" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/id_tv_load"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="loadPlugin"-->
+<!--        android:text="@string/install_plugin" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/id_btn_start"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="startActivityForPlugin"-->
+<!--        android:text="@string/start_plugin" />-->
+
+
+
+<!--    <Button-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:id="@+id/btn_one_key_complete"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="autoComplete"-->
+<!--        android:text="一键启动 (下载 => 安装 => 启动)"-->
+<!--        />-->
+
+
+</RelativeLayout>
