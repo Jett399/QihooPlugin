@@ -52,7 +52,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         rxPermissions = RxPermissions(this)
         autoBoot()
-
     }
 
 
@@ -208,10 +207,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openPlugin() {
-        // 刻意以“包名”来打开
 //        val intent = Intent()
 //        intent.component = ComponentName(
-//            "com.dafa_200423_cloud.caishen01",
+//            pluginName,
 //            "com.example.msi.platformforup.WelcomeActivity"
 //        )
 //        RePlugin.startActivity(this@MainActivity, intent)
@@ -262,6 +260,10 @@ class MainActivity : AppCompatActivity() {
         requestPermission(DOWNLOAD_DIALOG)
     }
 
+    fun openInternalPlugin(view: View) {
+
+        openPlugin()
+    }
 
 
 }
