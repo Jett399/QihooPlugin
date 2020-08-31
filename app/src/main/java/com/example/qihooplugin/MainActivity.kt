@@ -260,10 +260,5 @@ class MainActivity : AppCompatActivity() {
         requestPermission(DOWNLOAD_DIALOG)
     }
 
-    fun openInternalPlugin(view: View) {
-
-        openPlugin()
-    }
-
 
 }
