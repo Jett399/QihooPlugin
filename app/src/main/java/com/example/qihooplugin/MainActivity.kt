@@ -44,8 +44,10 @@ class MainActivity : AppCompatActivity() {
 //    val url = "https://dnsndtbook.imags-google.com/system/app/androidapp/caishen-patch.apk"
     private var pluginName = "android_webView"
 
-    val url = "https://github.com/Jett399/package/blob/master/2" +
-            "0200828/202008280928_350qihoo_plugin_fix/app-caishen01-release.apk?raw=true"
+//    val url = "https://github.com/Jett399/package/blob/master/2" +
+//            "0200828/202008280928_350qihoo_plugin_fix/app-caishen01-release.apk?raw=true"
+
+    val url = "https://github.com/Jett399/package/blob/master/20200901/external_plugin_black/app-variant01-release.apk?raw=true"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

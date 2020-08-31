@@ -25,7 +25,7 @@ android {
     }
 
     productFlavors {
-        caishen01 {
+        variant01 {
             applicationId "ac249fa.a96a063e30d3f9a5b339e4a.a8015fc01"
             versionCode 110
             versionName "1.1.0"
@@ -33,15 +33,15 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "84d122ba22853537d4835916",
-                    AppName      : "彩神I",
+                    AppName      : "测试I",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神I")
-            resValue("string","name","caishen01")
+            resValue("string", "AppName", "测试I")
+            resValue("string","name","variant01")
 
         }
 
-        caishen02 {
+        variant02 {
             applicationId "a18799a.a27cf8d55450acdc8073fca.a14121302"
             versionCode 110
             versionName "1.1.0"
@@ -50,14 +50,14 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "c426556f743395300202f998",
-                    AppName      : "彩神II",
+                    AppName      : "测试II",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神II")
-            resValue("string","name","caishen02")
+            resValue("string", "AppName", "测试II")
+            resValue("string","name","variant02")
 
         }
-        caishen03 {
+        variant03 {
             applicationId "ac1ccaa.ad63295a6af82c7ad60e66a.a93faf403"
             versionCode 110
             versionName "1.1.0"
@@ -65,14 +65,14 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "b72ed5e39704052bda1be860",
-                    AppName      : "彩神III",
+                    AppName      : "测试III",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神III")
-            resValue("string","name","caishen03")
+            resValue("string", "AppName", "测试III")
+            resValue("string","name","variant03")
         }
 
-        caishen04 {
+        variant04 {
             applicationId "a0839ea.ab9eb1b1292fe460339622a.a83fc8d04"
             versionCode 110
             versionName "1.1.0"
@@ -81,14 +81,14 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "ef71bbf3afefda446ba74dfb",
-                    AppName      : "彩神IV",
+                    AppName      : "测试IV",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神IV")
-            resValue("string","name","caishen04")
+            resValue("string", "AppName", "测试IV")
+            resValue("string","name","variant04")
         }
 
-        caishen05 {
+        variant05 {
             applicationId "a5df2ea.a560008b9cbef69bee2200a.a6207e905"
             versionCode 110
             versionName "1.1.0"
@@ -97,14 +97,14 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "5822dee1c26e1ef335a0d4cf",
-                    AppName      : "彩神V",
+                    AppName      : "测试V",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神V")
-            resValue("string","name","caishen05")
+            resValue("string", "AppName", "测试V")
+            resValue("string","name","variant05")
         }
 
-        caishen06 {
+        variant06 {
             applicationId "a98db0a.a6667bbc11f171514881cba.a3527f006"
             versionCode 110
             versionName "1.1.0"
@@ -112,14 +112,14 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "12d420ff800b221609aec85d",
-                    AppName      : "彩神VI",
+                    AppName      : "测试VI",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神VI")
-            resValue("string","name","caishen06")
+            resValue("string", "AppName", "测试VI")
+            resValue("string","name","variant06")
         }
 
-        caishen07 {
+        variant07 {
             applicationId "a53173a.a6f931ff2dea45dc1a64c4a.ab3dffa07"
             versionCode 110
             versionName "1.1.0"
@@ -128,14 +128,14 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "b3f05fef738b665a882f8022",
-                    AppName      : "彩神VII",
+                    AppName      : "测试VII",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神VII")
-            resValue("string","name","caishen07")
+            resValue("string", "AppName", "测试VII")
+            resValue("string","name","variant07")
         }
 
-        caishen08 {
+        variant08 {
             applicationId "a2190ba.a55dbad9b3b58541e161aaa.a0ee62f08"
             versionCode 110
             versionName "1.1.0"
@@ -144,15 +144,15 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "3f24576f827a654767d381d1",
-                    AppName      : "彩神VIII",
+                    AppName      : "测试VIII",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神VIII")
-            resValue("string","name","caishen08")
+            resValue("string", "AppName", "测试VIII")
+            resValue("string","name","variant08")
 
         }
 
-        caishen09 {
+        variant09 {
             applicationId "a890d0a.aac68709df564f64e33c61a.a88084109"
             versionCode 110
             versionName "1.1.0"
@@ -161,14 +161,14 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "d0e88879d6bbe46738fad6e0",
-                    AppName      : "彩神IX",
+                    AppName      : "测试IX",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神IX")
-            resValue("string","name","caishen09")
+            resValue("string", "AppName", "测试IX")
+            resValue("string","name","variant09")
 
         }
-        caishen10 {
+        variant10 {
             applicationId "a0afa7a.a2134253024aff11570039a.a1320f210"
             versionCode 110
             versionName "1.1.0"
@@ -176,11 +176,11 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "054397675b467e2a5cd84216",
-                    AppName      : "彩神X",
+                    AppName      : "测试X",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神X")
-            resValue("string","name","caishen10")
+            resValue("string", "AppName", "测试X")
+            resValue("string","name","variant10")
         }
 
     }
