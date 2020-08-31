@@ -17,16 +17,16 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("../keysorebucket/dafacloud_production_release_202008311520.keystore")
+            storeFile file("../keysorebucket/dafacloud_production_release_202009010051.keystore")
             storePassword KEYSTORE_PASSWORD
-            keyAlias 'key-dfgame-release-202008311520'
+            keyAlias 'key-dfgame-release-202009010051'
             keyPassword KEY_PASSWORD
         }
     }
 
     productFlavors {
         variant01 {
-            applicationId "com.dafa_200423_cloud.caishen01"
+            applicationId "a5bd55a.a6b36b700d1403c96eb9b9a.ab40c8001"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -42,7 +42,7 @@ android {
         }
 
         variant02 {
-            applicationId "com.dafa_200423_cloud.caishen02"
+            applicationId "add84aa.a56e71e87112292700218aa.a2bb46e02"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -58,7 +58,7 @@ android {
 
         }
         variant03 {
-            applicationId "com.dafa_200423_cloud.caishen03"
+            applicationId "ac7e02a.a77cb71bce3d6f7dcbc8f4a.acd625603"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -73,7 +73,7 @@ android {
         }
 
         variant04 {
-            applicationId "com.dafa_200423_cloud.caishen04"
+            applicationId "a5e0ada.a6674f4f2d7099a140946aa.a4dd76804"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -89,7 +89,7 @@ android {
         }
 
         variant05 {
-            applicationId "com.dafa_200423_cloud.caishen05"
+            applicationId "a3299da.a51597af84867b5cb9d787a.ab98d0d05"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -105,7 +105,7 @@ android {
         }
 
         variant06 {
-            applicationId "com.dafa_200423_cloud.caishen06"
+            applicationId "ab6731a.a281a012d8710da94231eaa.a69766806"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -120,7 +120,7 @@ android {
         }
 
         variant07 {
-            applicationId "com.dafa_200423_cloud.caishen07"
+            applicationId "a85e16a.a3e7d630275b8eefb7c865a.ab608e207"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -136,7 +136,7 @@ android {
         }
 
         variant08 {
-            applicationId "com.dafa_200423_cloud.caishen08"
+            applicationId "a41ecca.abfac9293199b2f904b621a.a1cad2108"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -153,7 +153,7 @@ android {
         }
 
         variant09 {
-            applicationId "com.dafa_200423_cloud.caishen09"
+            applicationId "a78f1fa.ad849476ba8af596528f43a.a1ee93309"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -169,7 +169,7 @@ android {
 
         }
         variant10 {
-            applicationId "com.dafa_200423_cloud.caishen10"
+            applicationId "abcd02a.aaa5bfeea025e5319b7193a.af170bb10"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
