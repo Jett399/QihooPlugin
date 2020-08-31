@@ -17,32 +17,32 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("../keysorebucket/dafacloud_production_release_202009010049.keystore")
+            storeFile file("../keysorebucket/dafacloud_production_release_202008311520.keystore")
             storePassword KEYSTORE_PASSWORD
-            keyAlias 'key-dfgame-release-202009010049'
+            keyAlias 'key-dfgame-release-202008311520'
             keyPassword KEY_PASSWORD
         }
     }
 
     productFlavors {
         variant01 {
-            applicationId "a0e247a.aa27f9a4d3fc5a395f01e6a.a51777801"
+            applicationId "com.dafa_200423_cloud.caishen01"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "84d122ba22853537d4835916",
-                    AppName      : "彩神I",
+                    AppName      : "测试I",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神I")
+            resValue("string", "AppName", "测试I")
             resValue("string","name","caishen01")
 
         }
 
         variant02 {
-            applicationId "a1db32a.a9be9faf412db3bdbf7949a.ab13e2f02"
+            applicationId "com.dafa_200423_cloud.caishen02"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -50,30 +50,30 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "c426556f743395300202f998",
-                    AppName      : "彩神II",
+                    AppName      : "测试II",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神II")
+            resValue("string", "AppName", "测试II")
             resValue("string","name","caishen02")
 
         }
         variant03 {
-            applicationId "a09086a.a71bdea057c86bbb10d199a.abce91603"
+            applicationId "com.dafa_200423_cloud.caishen03"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "b72ed5e39704052bda1be860",
-                    AppName      : "彩神III",
+                    AppName      : "测试III",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神III")
+            resValue("string", "AppName", "测试III")
             resValue("string","name","caishen03")
         }
 
         variant04 {
-            applicationId "a3c31fa.a1c9f388a00ece7aedffe8a.aff149204"
+            applicationId "com.dafa_200423_cloud.caishen04"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -81,15 +81,15 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "ef71bbf3afefda446ba74dfb",
-                    AppName      : "彩神IV",
+                    AppName      : "测试IV",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神IV")
+            resValue("string", "AppName", "测试IV")
             resValue("string","name","caishen04")
         }
 
         variant05 {
-            applicationId "aefc5ba.a49b3a173638ad98ab42aea.ad3815505"
+            applicationId "com.dafa_200423_cloud.caishen05"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -97,30 +97,30 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "5822dee1c26e1ef335a0d4cf",
-                    AppName      : "彩神V",
+                    AppName      : "测试V",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神V")
+            resValue("string", "AppName", "测试V")
             resValue("string","name","caishen05")
         }
 
         variant06 {
-            applicationId "a3f899a.a8dba91c27b87da67cdcbea.a1da4c206"
+            applicationId "com.dafa_200423_cloud.caishen06"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "12d420ff800b221609aec85d",
-                    AppName      : "彩神VI",
+                    AppName      : "测试VI",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神VI")
+            resValue("string", "AppName", "测试VI")
             resValue("string","name","caishen06")
         }
 
         variant07 {
-            applicationId "a579d5a.a6344156c27194c7fbb077a.aed1f9d07"
+            applicationId "com.dafa_200423_cloud.caishen07"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -128,15 +128,15 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "b3f05fef738b665a882f8022",
-                    AppName      : "彩神VII",
+                    AppName      : "测试VII",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神VII")
+            resValue("string", "AppName", "测试VII")
             resValue("string","name","caishen07")
         }
 
         variant08 {
-            applicationId "a23773a.ae05796a1676b52156377ca.ad4af5f08"
+            applicationId "com.dafa_200423_cloud.caishen08"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -144,16 +144,16 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "3f24576f827a654767d381d1",
-                    AppName      : "彩神VIII",
+                    AppName      : "测试VIII",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神VIII")
+            resValue("string", "AppName", "测试VIII")
             resValue("string","name","caishen08")
 
         }
 
         variant09 {
-            applicationId "abcdf1a.a012a55e8a67404eb4afc9a.af1fceb09"
+            applicationId "com.dafa_200423_cloud.caishen09"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
@@ -161,25 +161,25 @@ android {
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "d0e88879d6bbe46738fad6e0",
-                    AppName      : "彩神IX",
+                    AppName      : "测试IX",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神IX")
+            resValue("string", "AppName", "测试IX")
             resValue("string","name","caishen09")
 
         }
         variant10 {
-            applicationId "a0b97aa.a482b5b1de35eead5159f9a.a2941d710"
+            applicationId "com.dafa_200423_cloud.caishen10"
             versionCode 110
             versionName "1.1.0"
             multiDexEnabled true
             manifestPlaceholders = [
                     JPUSH_PKGNAME: applicationId,
                     JPUSH_APPKEY : "054397675b467e2a5cd84216",
-                    AppName      : "彩神X",
+                    AppName      : "测试X",
                     ICon         : "@mipmap/app_logo1"]
             resValue("string", "MainApplicationIDPath", applicationId)
-            resValue("string", "AppName", "彩神X")
+            resValue("string", "AppName", "测试X")
             resValue("string","name","caishen10")
         }
 
