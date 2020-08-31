@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
             "com.example.msi.platformforup.WelcomeActivity"
         )
         RePlugin.startActivity(this@MainActivity, intent)
+        finish()
     }
 
 
