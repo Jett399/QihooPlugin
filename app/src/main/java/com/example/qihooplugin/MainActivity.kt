@@ -1,11 +1,7 @@
 package com.example.qihooplugin
 
 import android.Manifest
-import android.annotation.SuppressLint
-import android.app.AlertDialog.THEME_HOLO_LIGHT
-import android.app.ProgressDialog
 import android.content.ComponentName
-import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -15,9 +11,7 @@ import android.provider.Settings
 import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import android.view.LayoutInflater
 import android.view.View
-import android.widget.TextView
 import android.widget.Toast
 import com.example.qihooplugin.util.DownLoadTask
 import com.qihoo360.replugin.RePlugin
@@ -102,14 +96,6 @@ class MainActivity : AppCompatActivity() {
         val dialog = AlertDialog.Builder(this)
         dialog.setCancelable(false)
         when (tag) {
-            DOWNLOAD_DIALOG -> {
-//                dialog.apply {
-//                    setTitle("提示").setMessage("确定开始下载")
-//                        .setPositiveButton("下载") { _, _ -> downLoadBegin() }
-//                        .setNegativeButton("取消") { _, _ -> create().dismiss() }
-//                        .create().show()
-//                }
-            }
             DENIED_ONCE -> {
                 dialog.apply {
                     setTitle("警告").setMessage("使用前请允许所有权限！")
@@ -209,18 +195,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openPlugin() {
-//        val intent = Intent()
-//        intent.component = ComponentName(
-//            pluginName,
-//            "com.example.msi.platformforup.WelcomeActivity"
-//        )
-//        RePlugin.startActivity(this@MainActivity, intent)
-
         Log.d(TAG, "startActivityForPlugin: 打开plugin_app")
         if (RePlugin.isPluginInstalled("android_webView")) {
             val intent = Intent()
             //插件app的别名
-            val className = "com.example.msi.platformforup.WelcomeActivity"
+//            val className = "com.example.msi.platformforup.WelcomeActivity"
+            val className = "com.example.msi.platformforup.MainActivity"
             intent.component = ComponentName(pluginName, className)
             RePlugin.startActivity(this, intent)
             finish()
